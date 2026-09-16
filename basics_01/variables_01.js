@@ -1,6 +1,12 @@
-const accId = 10010;
-var accEmail = "ahm@gmail.com";
-let accPassword = "12220";
-accCity = "Kolkata";
+// const accId = 10010;
+// var accEmail = "ahm@gmail.com";
+// let accPassword = "12220";
+// accCity = "Kolkata";
 
-console.table([accId, accEmail, accPassword, accCity]);
+// console.table([accId, accEmail, accPassword, accCity]);
+
+let a = 2;
+let b = 3;
+
+[a, b] = [b, a];
+console.log("a=", a, "b=", b);
